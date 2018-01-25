@@ -1,5 +1,5 @@
 "use strict";
 module.exports = [
-    "authorized"
+    "get.countryCodes"
 ];
 //# sourceMappingURL=index.js.map
