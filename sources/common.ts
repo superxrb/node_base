@@ -22,6 +22,7 @@ export enum ErrorCode {
     "SUCCESS",
     "API_NOT_FOUND",
     "RESOURCE_NOT_FOUND",
+    "NOT_AUTHORIZED",
     "STORAGE_ERROR",
     "NETWORK_ERROR",
     "SYSTEM_ERROR",

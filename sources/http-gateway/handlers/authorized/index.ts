@@ -1,3 +1,3 @@
 export = [
-    "get.countryCodes"
+    "get.countryCodes", "get.authorized"
 ];

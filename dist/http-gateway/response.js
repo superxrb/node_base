@@ -13,6 +13,12 @@ class Response {
             "detail": message ? message : "OK"
         };
     }
+    genError(httpCode, statusCode, statusDetail) {
+        this.http.code = httpCode;
+        this.http.message = "Error";
+        this.status.code = statusCode;
+        this.status.detail = statusDetail;
+    }
     toString() {
         return JSON.stringify(this);
     }

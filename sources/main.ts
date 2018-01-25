@@ -1,7 +1,6 @@
 import redis = require("./libs/redis");
 import { REDIS_CONFIG } from "./config/db";
 import { httpBoot } from "./http-gateway/server";
-import { smsBoot } from "./app/sendTask";
 import mysql from "./libs/mysql";
 
 

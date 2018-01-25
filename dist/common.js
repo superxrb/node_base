@@ -16,15 +16,16 @@ var ErrorCode;
     ErrorCode[ErrorCode["SUCCESS"] = 0] = "SUCCESS";
     ErrorCode[ErrorCode["API_NOT_FOUND"] = 1] = "API_NOT_FOUND";
     ErrorCode[ErrorCode["RESOURCE_NOT_FOUND"] = 2] = "RESOURCE_NOT_FOUND";
-    ErrorCode[ErrorCode["STORAGE_ERROR"] = 3] = "STORAGE_ERROR";
-    ErrorCode[ErrorCode["NETWORK_ERROR"] = 4] = "NETWORK_ERROR";
-    ErrorCode[ErrorCode["SYSTEM_ERROR"] = 5] = "SYSTEM_ERROR";
-    ErrorCode[ErrorCode["INVALID_REQUEST"] = 6] = "INVALID_REQUEST";
-    ErrorCode[ErrorCode["ACCESS_DENNY"] = 7] = "ACCESS_DENNY";
-    ErrorCode[ErrorCode["TIMEOUT_ERROR"] = 8] = "TIMEOUT_ERROR";
-    ErrorCode[ErrorCode["DUPLICATED"] = 9] = "DUPLICATED";
-    ErrorCode[ErrorCode["PARAM_ERROR"] = 10] = "PARAM_ERROR";
-    ErrorCode[ErrorCode["REQUEST_ALI_ERROR"] = 11] = "REQUEST_ALI_ERROR";
+    ErrorCode[ErrorCode["NOT_AUTHORIZED"] = 3] = "NOT_AUTHORIZED";
+    ErrorCode[ErrorCode["STORAGE_ERROR"] = 4] = "STORAGE_ERROR";
+    ErrorCode[ErrorCode["NETWORK_ERROR"] = 5] = "NETWORK_ERROR";
+    ErrorCode[ErrorCode["SYSTEM_ERROR"] = 6] = "SYSTEM_ERROR";
+    ErrorCode[ErrorCode["INVALID_REQUEST"] = 7] = "INVALID_REQUEST";
+    ErrorCode[ErrorCode["ACCESS_DENNY"] = 8] = "ACCESS_DENNY";
+    ErrorCode[ErrorCode["TIMEOUT_ERROR"] = 9] = "TIMEOUT_ERROR";
+    ErrorCode[ErrorCode["DUPLICATED"] = 10] = "DUPLICATED";
+    ErrorCode[ErrorCode["PARAM_ERROR"] = 11] = "PARAM_ERROR";
+    ErrorCode[ErrorCode["REQUEST_ALI_ERROR"] = 12] = "REQUEST_ALI_ERROR";
 })(ErrorCode = exports.ErrorCode || (exports.ErrorCode = {}));
 class DependencyContainer {
 }

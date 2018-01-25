@@ -33,6 +33,16 @@ export class Response {
         };
     }
 
+    public genError(httpCode: number,
+            statusCode: number,
+            statusDetail: string): void {
+
+           this.http.code = httpCode;
+           this.http.message = "Error";
+           this.status.code = statusCode;
+           this.status.detail = statusDetail;
+    }
+
     public toString(): string {
 
         return JSON.stringify(this);
