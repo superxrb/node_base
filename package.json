@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@litert/core": "^0.2.0",
+    "@litert/http": "^0.2.3",
     "mysql": "^2.15.0",
     "mysql2": "^1.5.1",
     "node": "^9.4.0",
